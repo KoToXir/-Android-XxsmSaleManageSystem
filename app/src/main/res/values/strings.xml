@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xxsm销售管理系统</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="login_vp12">员工登录</string>
+    <string name="login_vp3">管理员登录</string>
+    <string name="title_activity_vp1">VP1—员工</string>
+    <string name="announcement">此处为公告此处为公告此处为公告</string>
+    <string name="title_activity_vp3">VP3—管理员</string>
+    <string name="sys_status">系统状态</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_vp2">VP2—主管</string>
+    <string name="logout">登出</string>
+
+    <string name="manage_person">人员管理</string>
+    <string name="manage_product">产品管理</string>
+    <string name="push_announcement">发布公告</string>
+    <string name="report_view">收集反馈</string>
+
+    <string name="back">返回</string>
+</resources>

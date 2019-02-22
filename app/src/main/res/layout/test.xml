@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test">
+
+    <Button
+        android:id="@+id/buttonaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看员工"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ListView
+        android:id="@+id/ttlist"
+        android:layout_width="368dp"
+        android:layout_height="332dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+</LinearLayout>

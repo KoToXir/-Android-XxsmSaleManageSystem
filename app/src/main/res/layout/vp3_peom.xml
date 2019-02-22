@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.VP3_PeopleManage"
+    >
+
+
+    <Button
+        android:id="@+id/cre_dat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建数据库" />
+
+    <Button
+        android:id="@+id/peo_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加员工" />
+
+    <Button
+        android:id="@+id/peo_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除员工" />
+
+    <Button
+        android:id="@+id/peo_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新员工" />
+
+    <Button
+        android:id="@+id/peo_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        />
+
+    <ListView
+        android:id="@+id/peolist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        />
+
+    <Button
+        android:id="@+id/vp3_return30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/back" />
+
+</LinearLayout>
